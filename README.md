@@ -1,4 +1,4 @@
-# Basic to advance git comands for daily usage
+# Basic to advance git commands for daily use:
 
 ## Initializing Repo
 ```
@@ -15,4 +15,8 @@ git branch ## this will not output anything if there has not been any commit
 echo "# My Project" > README.md
 git add README.md
 git commit -m "Initial commit"
+```
+## Renme a branch
+```
+git branch -M <newbranch> ## this will not output anything if there has not been any commit
 ```
