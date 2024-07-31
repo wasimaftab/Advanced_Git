@@ -39,6 +39,5 @@ git checkout -b <branch name>
 ```
 git branch -d <branch name> ## safe delete
 git branch -D <branch name> ## force delete
-## note cannot delete a branch when you are on it :laughing:
 ```
-note cannot delete a branch when you are on it :laughing:
+**Note:** Cannot delete a branch when you are on it :laughing:
