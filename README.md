@@ -41,3 +41,17 @@ git branch -d <branch name> ## safe delete
 git branch -D <branch name> ## force delete
 ```
 **Note:** Cannot delete a branch when you are on it :laughing:
+## Copy a file/folder from one branch to another:
+1. Switch to the target branch
+    ```
+    git checkout <target branch>
+    ```
+2. Check out the specific file or folder from the source branch
+    ```
+    git checkout <source branch> -- path/to/file_or_folder
+    ```
+3. Commit the changes
+    ```
+    git add path/to/file_or_folder
+    git commit -m "Transferred file_or_folder from source_branch to target_branch"
+    ```
