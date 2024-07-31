@@ -1,5 +1,4 @@
-# My Project
-# Advanced_Git
+# Basic to advance git comands for daily usage
 
 ## Initializing Repo
 ```
